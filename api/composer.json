@@ -12,10 +12,10 @@
     ],
     "autoload": {
         "psr-4":{
-            "Src\\": "api/assets/"
+            "Src\\": "./assets/"
         },
         "files": [
-            "api/assets/Support/Config.php"
+            "./assets/Support/Config.php"
         ]
     }
 }

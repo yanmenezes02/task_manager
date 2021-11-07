@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'e608f0492cfc7837c21422034d026f01' => $baseDir . '/api/assets/Support/Config.php',
+    '5d35711f9f483daef7cd56aaf100f13c' => $baseDir . '/assets/Support/Config.php',
 );
