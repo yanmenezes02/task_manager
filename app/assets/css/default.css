@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap&family=Oswald:wght@200&display=swap&family=Roboto+Mono:wght@100&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #4e4e4e;
+    opacity: 1;
+    background: linear-gradient(135deg, #21212155 25%, transparent 25%) -14px 0/ 28px 28px, linear-gradient(225deg, #212121 25%, transparent 25%) -14px 0/ 28px 28px, linear-gradient(315deg, #21212155 25%, transparent 25%) 0px 0/ 28px 28px, linear-gradient(45deg, #212121 25%, #4e4e4e 25%) 0px 0/ 28px 28px;
+}
+
+h1{
+    text-align: center;
+    color: thistle;
+}
+
+.container{
+    width: 300px;
+    margin: 50px auto;
+    background-color: rgba(161, 159, 119, 0.479) !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    font-size: 40px;
+    font-weight: 900;
+    background-color: tomato;
+    width: 100%;
+    border-radius: 19px 19px 0px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.task-window{
+    padding: 20px; 
+}
+
+.tasks-item{
+    border-color:1px solid violet;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.task-item section footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+header{
+    font-size: 0.6cm;
+    font-family: 'Mohave', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.657);
+}
+
+.descricao{
+    font-size: 0.5cm;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(184, 184, 184, 0.657);
+    padding: 5px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.actions a{
+    display: block; 
+    color: rgb(243, 137, 118);
+    font-size: 30px;
+    background-color: rgba(97, 97, 97, 0.945);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 41px;
+    border-radius: 100%;
+}
+
+.status{
+    color: orange;
+    font-size: 25px;
+}
